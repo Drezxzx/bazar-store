@@ -56,6 +56,4 @@ The application follows a directory structure that clearly separates the MVC com
 
 [Andres Rodrigiez]
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
