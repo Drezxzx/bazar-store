@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black; 
+    font-style: none;
+}
+html,body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+.width100{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.actived{
+    background-color:#900000 !important;
+    box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.5);
+}
+
+.appear {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.appear.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
